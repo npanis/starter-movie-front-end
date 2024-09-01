@@ -8,3 +8,8 @@ This is the Front End Application for the WeLoveMovies project. Follow the instr
 1. Run `npm install`.
 
 Use `npm start` to run the application. If you deploy this application, create a `.env.production` file similar to the `.env.development` file.
+
+## Deploying to Render:
+1. package-lock.json should not be present. Make sure to delete it in your git repository
+2. Set env variables: NODE_VERSION to 16.20.2
+
